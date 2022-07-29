@@ -13,7 +13,7 @@ public class ItemColector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             masonjar++;
-            JarText.text = "Mason Jar: " + masonjar;
+            JarText.text = "Mason Jar:" + masonjar;
         }
     }
 
